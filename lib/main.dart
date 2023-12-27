@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/card.dart';
+import 'package:flutter_widgets/UI1/ui_screen1.dart';
 import 'package:get/get.dart';
 
 void main() {
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const CustomCard(),
+        home: const UIScreen1(),
       ),
     );
   }
